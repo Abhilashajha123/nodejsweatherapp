@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+
+    color:red;
+}
+
+
+i.fas.fa-certificate {
+    margin-left: 10px;
+    margin-right: 10px;
+   animation: rot 2s linear infinite;
+   color: blueviolet;
+}
+
+@keyframes rot {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.main_div {
+    display: flex;
+    justify-content: flex-end;
+    /* background: red; */
+}
+
+.content_div {
+    /* background: blue; */
+    width: 50%;
+    padding-top: 89px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-flow: column;
+}
+
+.slider_div {
+    width: 50%;
+
+}
+
+.content1 {
+    padding: 88px;
+    margin-top: -40px;
+}
+
+
+
+.content1>p {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+span.blue {
+    color: blue;
+    margin-left: 8PX;
+    FONT-SIZE: 3.1rem;
+}
+
+span.red {
+    color: red;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.content2 {
+    /* text-align: center; */
+    margin-top: -87px;
+    /* border: 1px solid; */
+    padding-left: 94px;
+    /* padding: 1px; */
+}
+
+
+
+.content2>button {
+    background: blue;
+    /* margin-top: -40px; */
+    border: 1px solid blue;
+    color: wheat;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+
+
+.carousel-inner {
+    position: relative;
+    width: 358px;
+    overflow: hidden;
+    margin-top: 52px;
+    height: 287px;
+    /* background: red; */
+    padding-top: -42px;
+}
+  
+  
+
+
+footer{
+    width: 100%;
+    background: black;
+    margin-top: auto;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    line-height: 5rem;
+}
+
+
+
+.searchbox {
+   
+    padding: 20px;
+    text-align: center;
+}
+input[type="text"] {
+    border: 1px solid black;
+    background: wheat;
+    width: 388px;
+    padding: 13px;
+    border-radius: 24px;
+}
+
+input#submit {
+    background: blue;
+    width: 80px;
+    height: 41px;
+    /* margin-right: 40px; */
+    border-radius: 13px;
+}
+
+.weatherinfo {
+    
+    text-align: center;
+    width: 400px;
+    margin-left: 464px;
+}
+
+.day_date {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.allinfo {
+    display: flex;
+    justify-content: space-around;
+    font-size: 58px;
+}
+
+p#temp {
+    font-weight: bold;
+    color: white;
+    font-size: 46px;
+}
+
+::before {}
+
+i.fas.fa-cloud {
+    color: blue;
+    font-size: 46px;
+}
+
+.date_time {
+    background: black;
+    /* color: wheat; */
+    height: 174px;
+}
+
+.city_name {
+    color: grey;
+    font-weight: bold;
+    padding: 16px;
+    width: 100%;
+    margin-right: 231px;
+}
+
+p#temp_status {
+    color: white;
+    font-weight: bold;
+}
